@@ -16,4 +16,8 @@ jobs:
         uses: jawills/sf-deploy@v1.0
         with: 
           SFDX_AUTH_URL: ${{ secrets.SFDX_AUTH_URL }}  # Fixed typo: was "screts"
+<<<<<<< mydemobranch
           DRY_RUN: true
+=======
+          DRY_RUN: true
+>>>>>>> main
